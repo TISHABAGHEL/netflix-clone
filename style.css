@@ -1,0 +1,110 @@
+*{
+    margin:0px;
+    padding:0px;
+
+}
+.root{
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-image: radial-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.8)) ,
+    url("image.jpg");
+      background-position:center;
+      height:700px;
+
+
+}
+.nav-bar{
+    padding-left: 2vw;
+    padding-right: 2vw;
+    padding-top: 1vw;
+    height:10%;
+    justify-content:space-between;
+    align-items:center;
+    display: flex;
+}
+.img-logo{
+    width:14%;
+
+}
+.button{
+    background-color:#e50914;
+    color:white;
+    padding-left: 20px;
+    padding-bottom: 5px;
+    padding-right: 20px;
+    padding-top: 4px;
+    border-radius: 5px;
+    cursor:pointer;
+    display: inline-block;
+    
+    
+}
+.main-container{
+    
+    height:90vh;
+    width: 100%;
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    justify-content:center;
+
+
+}
+.main-title-container {
+    text-align:center; 
+    color:white;
+    width:60%;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.main-title{
+    font-size: 3.2rem;
+    margin-bottom: 14px;
+}
+.main-subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    margin-bottom:30px;
+    margin-top: 12px;
+}
+.call-to-action{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:0.85rem;
+    margin-top: 12px;
+}
+.main-email-container{
+    height: fit-content;
+    width:53%;
+    background-color: #ffffff;
+    display:flex;
+    align-items: center;
+    margin-top: 30px;
+    border-radius: 4px;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.email-container{
+    border:none;
+    outline:none;
+    padding:20px 10px;
+    font-size:1em;
+}
+.button-search{
+    background-color: #e50914;
+    color: white;
+    height:fit-content;
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.4em;
+    text-align:center;
+    text-transform:uppercase;
+    align-items: center;
+    padding:18px 32px;
+    
+
+
+
+}
+.button-search:hover{
+    background-color: #ff0b18;
+}
+
